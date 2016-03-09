@@ -1,0 +1,6 @@
+bmcgeheevoicebox/provision_ubuntu_git:
+  Build:
+    - echo "Nothing to build"
+  PreInstall:
+    - sudo apt-get -y update
+    - sudo apt-get -y install git
