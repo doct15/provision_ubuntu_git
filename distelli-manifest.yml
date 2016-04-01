@@ -1,4 +1,4 @@
-bmcgeheevoicebox/provision_ubuntu_git:
+bmcgehee/provision_ubuntu_git:
   Build:
     - echo "Nothing to build"
   PreInstall:
